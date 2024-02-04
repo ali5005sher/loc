@@ -10,8 +10,8 @@ if (navigator.geolocation) {
       console.log("Latitude: " + position.coords.latitude);
       latitude.textContent += position.coords.latitude;
       console.log("Longitude: " + position.coords.longitude);
-      longitude.textContent += position.coords.latitude;
-      //   console.log(coords);
+      longitude.textContent += position.coords.longitude;
+      console.log(coords);
     },
     // Error callback
     function (error) {
